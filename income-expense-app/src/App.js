@@ -40,6 +40,9 @@ import Private from "./Router/Private";
 import Dashboard from "./Features/Dashboard";
 
 const App = () => {
+
+
+  
   return (
     <div>
       {/* style={{ background: "rebeccapurple", minHeight: "100vh" }} */}
