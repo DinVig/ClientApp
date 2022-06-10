@@ -1,12 +1,12 @@
 import React from "react";
-// import Buttons from "ButtonsExample/Buttons";
+import Buttons from "ButtonsExample/Buttons";
 
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
-import theme from "../src/Assets/theme";
-import Login from "./Features/AuthScreen/Login";
-import AuthScreen from "./Features/AuthScreen";
-import Router from "./Router/index";
+import theme from "Assets/theme";
+import Login from "Features/AuthScreen/Login";
+import AuthScreen from "Features/AuthScreen";
+import Router from "Router/index";
 import {
   SnackbarContent,
   Snackbar,
@@ -35,14 +35,11 @@ import {
   Toolbar,
 } from "@mui/material";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Income } from "./Features/Income/Income";
-import Private from "./Router/Private";
-import Dashboard from "./Features/Dashboard";
+import { Income } from "Features/Income/Income";
+import Private from "Router/Private";
+import Dashboard from "Features/Dashboard";
 
 const App = () => {
-
-
-  
   return (
     <div>
       {/* style={{ background: "rebeccapurple", minHeight: "100vh" }} */}
